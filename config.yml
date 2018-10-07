@@ -1,0 +1,9 @@
+alerts:
+ token_generation:
+   threshold: 10
+   duration: 300 # 5 minutes
+ reset_password:
+   threshold: 3
+   duration: 60 # 1 minute
+   
+webhook: http://127.0.0.1:4567/alert_triggered/
